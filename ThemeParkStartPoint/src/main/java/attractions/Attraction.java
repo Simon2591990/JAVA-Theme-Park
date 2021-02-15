@@ -1,6 +1,8 @@
 package attractions;
 
-public abstract class Attraction {
+import behaviours.ITicketed;
+
+public abstract class Attraction{
     private String name;
     private int rating;
     private int visitCount;
