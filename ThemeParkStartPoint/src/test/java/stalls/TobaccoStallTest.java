@@ -18,7 +18,7 @@ public class TobaccoStallTest {
     public void setUp() throws Exception {
         visitor10 = new Visitor(10, 120, 10);
         visitor20 = new Visitor(20, 220, 10);
-        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1);
+        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1, 4);
     }
 
     @Test

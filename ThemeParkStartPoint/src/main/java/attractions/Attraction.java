@@ -2,6 +2,7 @@ package attractions;
 
 import behaviours.IReviewed;
 import behaviours.ITicketed;
+import people.Visitor;
 
 public abstract class Attraction implements IReviewed {
     private String name;
@@ -28,5 +29,8 @@ public abstract class Attraction implements IReviewed {
 
     public void increaseVisitCount(){
         this.visitCount += 1;
+    }
+    public boolean isAllowedTo(Visitor visitor){
+        return true;
     }
 }

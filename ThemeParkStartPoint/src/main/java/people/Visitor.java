@@ -34,4 +34,6 @@ public class Visitor {
     public ArrayList<Attraction> getVisitedAttractions() {
         return visitedAttractions;
     }
+
+
 }
